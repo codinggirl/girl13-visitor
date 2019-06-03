@@ -1,0 +1,36 @@
+{
+  "name": "girl13-visitor",
+  "version": "0.0.0",
+  "description": "A girl13 visitor",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node --experimental-modules src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codinggirl/girl13-visitor.git"
+  },
+  "keywords": [
+    "girl13"
+  ],
+  "author": "Richard Libre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codinggirl/girl13-visitor/issues"
+  },
+  "homepage": "https://github.com/codinggirl/girl13-visitor#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "fast-html-parser": "^1.0.1",
+    "got": "^9.6.0",
+    "knex": "^0.17.3",
+    "sqlite3": "^4.0.8",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
