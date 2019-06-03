@@ -17,8 +17,8 @@ async function main() {
 
     console.log('prepare urls.')
     let pendingPages = []
-    const startIndex = process.env.SITE_PAGE_MIN_ID
-    const endIndex = process.env.SITE_PAGE_MAX_ID
+    const startIndex = parseInt(process.env.SITE_PAGE_MIN_ID)
+    const endIndex = parseInt(process.env.SITE_PAGE_MAX_ID)
     for (let i = startIndex; i <= endIndex; i++) {
         let url = `http://www.girl13.com/${i}.html`
         pendingPages.push({
