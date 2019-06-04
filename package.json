@@ -6,7 +6,11 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "start": "node --experimental-modules src/index.js"
+    "start": "npm run fetch-meta && npm run fetch-images",
+    "fetch-meta": "node --experimental-modules src/fetchMeta.js",
+    "fetch-images": "node --experimental-modules src/fetchImages.js",
+    "check-images": "node --experimental-modules src/checkImages.js",
+    "remove-broken-images": "node --experimental-modules src/removeBrokenImages.js"
   },
   "repository": {
     "type": "git",
