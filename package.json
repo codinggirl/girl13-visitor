@@ -1,6 +1,6 @@
 {
   "name": "girl13-visitor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A girl13 visitor",
   "main": "src/index.js",
   "type": "module",
