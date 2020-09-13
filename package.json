@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "jest": "^26.4.2",
-    "simple-open-url": "^2.2.0"
+    "simple-open-url": "^3.0.1"
   }
 }
