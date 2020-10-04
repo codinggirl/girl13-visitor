@@ -32,7 +32,7 @@
     "fast-html-parser": "^1.0.1",
     "got": "^11.6.2",
     "moment-timezone": "^0.5.27",
-    "uuid": "^3.3.3"
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
     "jest": "^26.4.2",
